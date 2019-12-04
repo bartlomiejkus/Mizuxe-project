@@ -1,0 +1,80 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.8; }
+  .navbar a.navbar-brand {
+    font-size: 2rem; }
+  .navbar a.nav-link {
+    font-size: 1.2rem; }
+
+#home-section {
+  background-image: url("../images/mountains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 92px;
+  min-height: 550px;
+  position: relative; }
+  #home-section .primary-overlay {
+    background-color: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #home-section .showcase-img {
+    display: block;
+    height: auto;
+    max-width: 90%; }
+  #home-section h1 {
+    margin-top: 15%; }
+
+#cards-section, #authors-section {
+  background-color: #fff; }
+
+#cards-section .card {
+  max-width: 20rem; }
+
+#about-section h1, #authors-section h1 {
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
+  width: 50%; }
+
+#authors-section img {
+  margin-top: -2.5rem; }
+#authors-section .card {
+  max-width: 25rem; }
+#authors-section .card:hover {
+  background: #3292a6; }
+#authors-section .card:hover h4 {
+  color: #fff !important; }
+#authors-section .card:hover a {
+  color: #fff !important; }
+
+@media (max-width: 1199px) {
+  #home-section h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 25%; }
+  #home-section .showcase-img {
+    min-width: 100%; } }
+@media (max-width: 991px) {
+  #cards-section .card {
+    margin-bottom: 1rem; }
+
+  #about-section h1, #authors-section h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2; }
+  #about-section img, #authors-section img {
+    margin-bottom: 2rem; }
+
+  #authors-section .card {
+    margin: 1.5rem auto; } }
+@media (max-width: 767px) {
+  #cards-section .card {
+    margin: 1rem auto; }
+
+  #about-section h1, #authors-section h1 {
+    font-size: 2rem; } }
